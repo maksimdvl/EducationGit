@@ -1,4 +1,5 @@
 const App = () => {
+    const [test, settext] = useState(false)
     const [reset, setReset] = useState(false)
     return (
         <ThemeProvider theme={theme}>
